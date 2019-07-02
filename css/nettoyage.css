@@ -1,0 +1,24 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|KoHo|Raleway|Roboto+Condensed|Ubuntu&display=swap');
+
+/* Fonts */
+
+
+/* Navbar */
+
+.navbar {
+    background: white;
+    font-family: 'Ubuntu', Courier New, Courier, monospace;
+}
+
+.nav-link {
+    color: lightblue;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+
+/* Fin de navbar */
