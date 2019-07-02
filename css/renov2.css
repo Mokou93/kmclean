@@ -1,0 +1,200 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|KoHo|Raleway|Roboto+Condensed|Ubuntu&display=swap');
+
+/* Fonts */
+
+
+/* background*/
+
+body {}
+
+
+/*fin de background*/
+
+
+/* Navbar */
+
+#logo {
+    width: 35%;
+}
+
+.navbar {
+    font-family: 'Ubuntu', Courier New, Courier, monospace;
+    background-color: rgba(110, 0, 0, 0.644);
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+#navbarNav ul a:hover {
+    color: #000000;
+}
+
+#navbarNav ul a {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(239, 239, 247);
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../image/toolbox-solid.svg");
+}
+
+
+/*Fin de navbar */
+
+
+/*telephone side*/
+
+
+/* Animation side */
+
+#container-phone-tool .component.contact.phone_view .phone .phone-link {
+    color: #000000;
+    font-weight: bold;
+    text-decoration-line: none;
+    transition: all .2s ease-in-out;
+}
+
+#container-phone-tool:hover {
+    right: 0;
+}
+
+
+/*fin animation side*/
+
+
+/* Animation numero */
+
+#container-phone-tool .component.contact.phone_view .phone .phone-link:hover {
+    font-size: 1.2em;
+}
+
+
+/*fin animation numero tel*/
+
+#container-phone-tool {
+    position: fixed;
+    right: -130px;
+    top: 150px;
+    z-index: 222;
+    background-color: rgba(139, 0, 0, 0.61);
+    margin: 0px;
+    padding: 10px;
+    transition: right 0.4s ease;
+    box-shadow: 0px 0px 10px #000000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #000000;
+}
+
+#container-phone-tool .component.contact.phone_view .phone img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+/*fin telephone side*/
+
+
+/*Accueil*/
+
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.video-background {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+
+/*fin Accueil*/
+
+
+/*menu burger anim
+    
+        .navbar-minimal>.navbar-toggler {
+            position: relative;
+            min-height: 60px;
+            border-bottom: 1px solid rgb(81, 81, 81);
+            z-index: 100;
+            cursor: pointer;
+        }
+        
+        .navbar-minimal.open>.navbar-toggler,
+        .navbar-minimal>.navbar-toggler:hover {
+            background-color: rgb(158, 202, 59);
+        }
+        .navbar-minimal>.navbar-toggler>span {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            margin: -8px -8px 0 0;
+            width: 16px;
+            height: 16px;
+            background-image: url(data:) background-position: 0 0;
+            -webkit-transition: -webkit-transform .3s ease-out 0s;
+            -moz-transition: -moz-transform .3s ease-out 0s;
+            -o-transition: -moz-transform .3s ease-out 0s;
+            -ms-transition: -ms-transform .3s ease-out 0s;
+            transition: transform .3s ease-out 0s;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        fin anim menu burger*/
+
+
+/*Entreprise*/
+
+
+/* The hero image */
+
+
+/*#entreprise {
+    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../image/peinture-rouleau-homme-district-design_1920x.jpg");
+    /* Set a specific height/width 
+    height: 100vh;
+    /* Position and center the image to scale nicely on all screens
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+#entreprise h3 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#entreprise.img-entreprise {
+    position: relative;
+    height: 100px;
+    width: 80px;
+}

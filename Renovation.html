@@ -8,7 +8,7 @@
     <title>KM CLEAN</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/renovation.css" rel="stylesheet">
+    <link href="css/renov2.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,20 +63,17 @@
     <!--fin telephone-->
     <!--Accueil-->
     <section id="accueil">
-        <div class="video-background" class="embed-responsive embed-responsive-16by9">
-            <video id="bgvideo" class="embed-responsive-item" loop autoplay playsinline muted>
+        <div class="video-background">
+            <video id="bgvideo" loop autoplay muted>
                     <source src="/video/renov (convert-video-online.com).mov" type="video/mov">
                     <source src="/video/renov (convert-video-online.com).webm" type="video/webm">
-
                     <source src="/video/renov (online-video-cutter.com).mp4" type="video/mp4">
-
                     Désolé, votre navigateur ne supporte pas le format videos.
             </video>
-
             <div class="row hero-text">
                 <div class="col-sm-12 col-md-12">
-                    <h1>km clean habitat</h1>
-                    <p>a votre service!</p>
+                    <h1 class="display-4">km clean habitat</h1>
+                    <p class="display-5">à votre service!</p>
                 </div>
             </div>
         </div>
@@ -86,8 +83,9 @@
     <section id="entreprise" class="">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-6 col-md-6">
                     <h3 class="text-uppercase strong">Notre Entreprise</h3>
+                    <img src="/image/building-1080592_1920.jpg" alt="entreprise">
                 </div>
             </div>
         </div>
@@ -98,17 +96,17 @@
         <div class="container-fluid">
             <!--peinture-->
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-md-6">
                     <h3 class="text-uppercase">peinture</h3>
-                    <img src="" alt="">
+                    <img src="image/imageRenovation/pexels-photo-1571174.jpeg" alt="peinture" class="img-thumbnail img-fluid" width="80%">
                     <p></p>
                 </div>
             </div>
             <!--electricité-->
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-md-6">
                     <h3 class="text-uppercase">éléctricité</h3>
-                    <img src="" alt="">
+                    <img src="image/tool-2766835_1920.jpg" alt="électricité" class="img-thumbnail img-fluid" width="8O%">
                     <p></p>
                 </div>
             </div>
@@ -138,9 +136,9 @@
             </div>
             <!--parquet-->
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 ">
                     <h3 class="text-uppercase">sol/parquet</h3>
-                    <img src="" alt="">
+                    <img src=" " alt="">
                     <p></p>
                 </div>
             </div>
@@ -159,7 +157,7 @@
     <section id="devis">
         <div class="container-fluid">
             <div class="row">
-                <div id="comment" class="col-sm-6">
+                <div id="comment" class="col-sm-6 ">
                     <h4>Rénovation</h4>
                     <h2>Demander un devis</h2>
                     <p><strong>Pour toute demande la réception est à votre écoute 24h/24 et 7jours/7 au +33 (0)1 48 27
@@ -173,17 +171,17 @@
                         <div class="form-group col-sm-6">
                             <input type="text" class="form-control" id="nom" placeholder="Nom">
                         </div>
-                        <div class="form-group col-sm-6">
+                        <div class="form-group col-sm-6 ">
                             <input type="text" class="form-control" id="prenom" placeholder="Prénom">
                         </div>
-                        <div class="form-group col-sm-6">
+                        <div class="form-group col-sm-6 ">
                             <input type="email" class="form-control" id="email" placeholder="E-mail">
                         </div>
                         <div class="form-group col-sm-6">
                             <input type="tel" class="form-control" id="tel" placeholder="Téléphone">
                         </div>
-                        <div class="form-group col-sm-6">
-                            <input type="text" class="form-control" id="adresse" placeholder="Adresse">
+                        <div class="form-group col-sm-6 ">
+                            <input type="text" class="form-control" id="adresse " placeholder="Adresse">
                         </div>
                         <div class="form-group col-sm-6">
                             <select class="form-control" id="prestation">
@@ -204,7 +202,7 @@
                             </select>
                         </div>
                         <div class="form-group col-sm-6">
-                            <input type="date" class="form-control" id="date-dep" placeholder="Date de debut de chantier">
+                            <input type="date" class="form-control" id="date-dep " placeholder="Date de debut de chantier">
                         </div>
                         <div class="form-group col-sm-6">
                             <input type="date" class="form-control" id="date-arr" placeholder="Date de fin de chantier">
@@ -222,7 +220,7 @@
                             <textarea class="form-control" id="demande" cols="" rows="" placeholder="Précisez votre demande..."></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-secondary">Envoyer</button>
+                            <button type="submit" class="btn btn-danger">Envoyer</button>
                         </div>
 
                 </div>
@@ -232,18 +230,18 @@
     <!--fin de devis-->
     <!--Contact-->
     <section id="contact">
-        <div class="container-fluid">
+        <div class="container d-flex justify-content-center">
             <div class="row">
-                <h3 class="text-uppercase align-center">contact</h3>
+                <h3 class="text-uppercase">contact</h3>
                 <p></p>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-12 col-md-12">
                     <form method="POST" action="https://formspree.io/YOUREMAILHERE">
                         <input type="email" name="email" placeholder="Votre adresse email">
-                        <input type="text" name="number phone" placeholder="Numéro de téléphone">
+                        <input type="text " name="number phone" placeholder="Numéro de téléphone">
                         <textarea name="message" placeholder="Commentaire"></textarea>
-                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                        <button type="submit" class="btn btn-danger">Envoyer</button>
                     </form>
                 </div>
             </div>
