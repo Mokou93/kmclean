@@ -16,7 +16,7 @@ body {}
 /* Navbar */
 
 #logo {
-    width: 35%;
+    width: 40%;
 }
 
 .navbar {
@@ -193,8 +193,69 @@ body {}
     padding-top: 10%;
 }
 
-#entreprise.img-entreprise {
-    position: relative;
-    height: 100px;
-    width: 80px;
+
+/*PRESTATIONS*/
+
+
+/*FIN DE PRESTATIONS*/
+
+
+/*FOOTER*/
+
+
+/*
+.footer {
+    background: #35373e;
+    background-size: 100%;
 }
+
+.icons {
+    margin-left: 625px;
+    margin-top: 70px;
+    float: right;
+    margin-right: 200px;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+fa-fw {
+    text-align: left;
+}
+
+.fa {
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 10px 28px 10px 12px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.fa-github:hover {
+    color: black;
+    border-color: black;
+}
+
+.fa-instagram:hover {
+    color: #804000;
+    border-color: #804000;
+}
+
+
+/*FIN FOOTER*/
