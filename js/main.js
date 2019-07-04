@@ -1,21 +1,8 @@
-/*$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(window).scrollTop() >= 50) {
-            $('.navbar').css('background', 'transparent');
-        } else {
-            $('.navbar').css('background', 'red');
-        }
-    });
+window.onscroll = function() { myFunction() };
 
-});*/
-/*function phoneZoom() {
-    phoneLink = document.getElementById('#container-phone-basket');
-    phoneLink.classList.toggle('phone-zoom');
-}*/
-
-/*function phoneZoom(multiplier) {
-    if (document.body.style.fontSize == "") {
-        document.body.style.fontSize = "1.0em";
-    }
-    document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
-}*/
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+}
