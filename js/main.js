@@ -19,9 +19,3 @@
     }
     document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
 }*/
-
-$(function() {
-            $('.navbar-toggler').on('click', function(event) {
-                event.preventDefault();
-                $(this).closest('.navbar-nav').toggleClass('open');
-            })

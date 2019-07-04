@@ -7,8 +7,6 @@
 
 /* background*/
 
-body {}
-
 
 /*fin de background*/
 
@@ -135,58 +133,18 @@ body {}
 /*fin Accueil*/
 
 
-/*menu burger anim
-    
-        .navbar-minimal>.navbar-toggler {
-            position: relative;
-            min-height: 60px;
-            border-bottom: 1px solid rgb(81, 81, 81);
-            z-index: 100;
-            cursor: pointer;
-        }
-        
-        .navbar-minimal.open>.navbar-toggler,
-        .navbar-minimal>.navbar-toggler:hover {
-            background-color: rgb(158, 202, 59);
-        }
-        .navbar-minimal>.navbar-toggler>span {
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            margin: -8px -8px 0 0;
-            width: 16px;
-            height: 16px;
-            background-image: url(data:) background-position: 0 0;
-            -webkit-transition: -webkit-transform .3s ease-out 0s;
-            -moz-transition: -moz-transform .3s ease-out 0s;
-            -o-transition: -moz-transform .3s ease-out 0s;
-            -ms-transition: -ms-transform .3s ease-out 0s;
-            transition: transform .3s ease-out 0s;
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -o-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-            transform: rotate(0deg);
-        }
-        fin anim menu burger*/
-
-
 /*Entreprise*/
 
 
 /* The hero image */
 
-
-/*#entreprise {
-    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../image/peinture-rouleau-homme-district-design_1920x.jpg");
-    /* Set a specific height/width 
-    height: 100vh;
-    /* Position and center the image to scale nicely on all screens
-    background-position: center;
+#entreprise {
+    /* Use "linear-gradient" to add a darken effect to the image. This will make the text easier to read*/
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("/image/imageRenovation/building-1080592_1920.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-}*/
+    background-attachment: fixed;
+    height: 100vh;
+}
 
 #entreprise h3 {
     text-align: center;
@@ -196,24 +154,45 @@ body {}
 
 /*PRESTATIONS*/
 
+#prestation {
+    padding-top: 10%;
+}
+
 
 /*FIN DE PRESTATIONS*/
 
 
-/*FOOTER*/
+/*DEVIS*/
 
-
-/*
-.footer {
-    background: #35373e;
-    background-size: 100%;
+#devis {
+    padding-top: 8%;
 }
 
+
+/*FIN DEVIS*/
+
+
+/*CONTACT*/
+
+#contact {
+    padding-top: 10%;
+}
+
+#contact {
+    background-color: rgba(139, 0, 0, 0.555);
+}
+
+
+/*FIN CONTACT*/
+
+
+/*FOOTER*/
+
 .icons {
+    padding-top: 5%;
     margin-left: 625px;
-    margin-top: 70px;
-    float: right;
     margin-right: 200px;
+    padding-bottom: 5%;
 }
 
 li {
@@ -233,7 +212,7 @@ fa-fw {
     border-width: 2px;
     border-radius: 100%;
     padding: 10px 28px 10px 12px;
-    color: white;
+    color: #000000;
     transition-duration: 0.3s;
 }
 
@@ -247,14 +226,18 @@ fa-fw {
     border-color: #1da1f2;
 }
 
-.fa-github:hover {
-    color: black;
-    border-color: black;
+.fa-linkedin:hover {
+    color: rgb(36, 88, 156);
+    border-color: rgb(36, 88, 156);
 }
 
 .fa-instagram:hover {
     color: #804000;
     border-color: #804000;
+}
+
+.background-footer {
+    background-color: rgba(139, 0, 0, 0.555);
 }
 
 
