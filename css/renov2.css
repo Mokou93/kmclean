@@ -175,6 +175,7 @@ body {
 
 #entreprise {
     border-bottom: 5px solid darkred;
+    position: relative;
 }
 
 
@@ -193,8 +194,12 @@ body {
     padding-top: 10%;
 }
 
-#entreprise {
+.carousel {
     width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
