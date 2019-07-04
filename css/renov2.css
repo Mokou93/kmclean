@@ -4,11 +4,9 @@
 
 /* Fonts */
 
-
-/* background*/
-
-
-/*fin de background*/
+body {
+    overflow-x: hidden;
+}
 
 
 /* Navbar */
@@ -110,6 +108,10 @@
 
 /*Accueil*/
 
+#accueil {
+    border-bottom: 20px solid darkred;
+}
+
 
 /* Place text in the middle of the image */
 
@@ -135,6 +137,10 @@
 
 /*Entreprise*/
 
+#entreprise {
+    border-bottom: 5px solid darkred;
+}
+
 
 /* The hero image */
 
@@ -155,7 +161,7 @@
 /*PRESTATIONS*/
 
 #prestation {
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 
@@ -175,7 +181,7 @@
 /*CONTACT*/
 
 #contact {
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 #contact {
@@ -188,16 +194,46 @@
 
 /*FOOTER*/
 
-.icons {
-    padding-top: 5%;
-    margin-left: 625px;
-    margin-right: 200px;
-    padding-bottom: 5%;
+.fa {
+    font-size: 4rem;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 10px 28px 10px 12px;
+    color: #000000;
+    transition-duration: 0.3s;
 }
 
+.fa-facebook:hover {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.fa-linkedin:hover {
+    color: rgb(36, 88, 156);
+    border-color: rgb(36, 88, 156);
+}
+
+.fa-instagram:hover {
+    color: #804000;
+    border-color: #804000;
+}
+
+.background-footer {
+    background-color: rgba(139, 0, 0, 0.555);
+}
+
+
+/*.icons {}
+
 li {
-    float: left;
-    margin-left: 10px;
     list-style: none;
 }
 
@@ -238,7 +274,7 @@ fa-fw {
 
 .background-footer {
     background-color: rgba(139, 0, 0, 0.555);
-}
+}*/
 
 
 /*FIN FOOTER*/
