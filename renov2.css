@@ -120,7 +120,7 @@ body {
 
 #container-phone-tool {
     position: fixed;
-    right: -130px;
+    right: -140px;
     top: 150px;
     z-index: 222;
     background-color: rgba(139, 0, 0, 0.61);
@@ -302,7 +302,12 @@ body {
 
 /*Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .predem{
+    margin-right: -12px;
+    margin-left: -12px;
+    }
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
