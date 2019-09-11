@@ -1,0 +1,336 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji|KoHo|Raleway|Roboto+Condensed|Ubuntu&display=swap');
+
+/* Fonts */
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Navbar */
+
+#logo {
+    width: 40%;
+}
+
+.navbar {
+    font-family: 'Ubuntu', Courier New, Courier, monospace;
+    background-color: rgba(110, 0, 0, 0.644);
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+#navbarNav ul a:hover {
+    color: #000000;
+}
+
+#navbarNav ul a {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(239, 239, 247);
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../image/toolbox-solid.svg");
+}
+
+
+/*Fin de navbar */
+
+
+/*barre progression*/
+
+.barre-progression {
+    position: fixed;
+    top: 95px;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.header h2 {
+    text-align: center;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 8px;
+    background: darkred;
+    width: 0%;
+}
+
+.content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+}
+
+
+/*fin de barre de progression*/
+
+
+/*telephone side*/
+
+
+/* Animation side */
+
+#container-phone-tool .component.contact.phone_view .phone .phone-link {
+    color: #000000;
+    font-weight: bold;
+    text-decoration-line: none;
+    transition: all .2s ease-in-out;
+}
+
+#container-phone-tool:hover {
+    right: 0;
+}
+
+
+/*fin animation side*/
+
+
+/* Animation numero */
+
+#container-phone-tool .component.contact.phone_view .phone .phone-link:hover {
+    font-size: 1.2em;
+}
+
+
+/*fin animation numero tel*/
+
+#container-phone-tool {
+    position: fixed;
+    right: -130px;
+    top: 150px;
+    z-index: 222;
+    background-color: rgba(139, 0, 0, 0.61);
+    margin: 0px;
+    padding: 10px;
+    transition: right 0.4s ease;
+    box-shadow: 0px 0px 10px #000000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #000000;
+}
+
+#container-phone-tool .component.contact.phone_view .phone img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+/*fin telephone side*/
+
+
+/*Accueil*/
+
+#accueil {
+    border-bottom: 20px solid darkred;
+}
+
+
+/* placer le texte au milieu de l'image */
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.video-background {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+
+/*fin Accueil*/
+
+
+/*Entreprise*/
+
+#entreprise {
+    border-bottom: 5px solid darkred;
+    position: relative;
+}
+
+
+/* The hero image */
+
+#entreprise {
+    /* Use "linear-gradient" to add a darken effect to the image. This will make the text easier to read*/
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("/image/imageRenovation/building-1080592_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#entreprise h3 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.carousel {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*PRESTATIONS*/
+
+#prestation {
+    padding-top: 8%;
+}
+
+
+/*FIN DE PRESTATIONS*/
+
+
+/*DEVIS*/
+
+#devis {
+    padding-top: 8%;
+}
+
+
+/*FIN DEVIS*/
+
+
+/*CONTACT*/
+
+#contact {
+    padding-top: 8%;
+}
+
+#contact {
+    background-color: rgba(139, 0, 0, 0.660);
+}
+
+
+/*FIN CONTACT*/
+
+
+/*FOOTER*/
+
+.fa {
+    font-size: 4rem;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 10px 28px 10px 12px;
+    color: #000000;
+    transition-duration: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.fa-linkedin:hover {
+    color: rgb(36, 88, 156);
+    border-color: rgb(36, 88, 156);
+}
+
+.fa-instagram:hover {
+    color: #804000;
+    border-color: #804000;
+}
+
+.background-footer {
+    background-color: rgba(139, 0, 0, 0.660);
+}
+
+
+/*FIN FOOTER*/
+
+
+/*media query*/
+
+@media (max-width: 575.98px) {
+    h3 {
+        font-size: 2.1rem;
+    }
+    #accueil h1 {
+        font-size: 1.9rem;
+    }
+    #bgvid {
+        margin-top: 96px;
+    }
+    #logo {
+        width: 30%;
+    }
+    .barre-progression {
+        top: 75px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #bgvid {
+        margin-top: 65%;
+    }
+    .hero-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #accueil p {
+        font-size: 2rem;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
+/*fin de media query*/
